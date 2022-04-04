@@ -1,3 +1,35 @@
+# About the project
+
+⚛️ This project is a frontend app that comprises of React.js written in TypeScript.
+
+## Approach and software design
+
+- For this project, I have worked with a functional component approach, which makes the codebase reusable and efficient.
+
+- I have used React Memo to memoize the components, which is a way to make the component more efficient.
+
+- As part of the styling, I have defined objects to hold the styles for the components as opposed to inline styles. The styles are then passed as props to the components targetted. 
+
+- In terms of programming pattern, I have decided to use an Functional Programming approach, as for example in the use of types instead of interfaces in the props defining.
+
+🥳 It has been so much fun to work on this project and a really great way to practice software design, programming with TypeScript, creating components in React.js and passing props and styles to them. 
+
+## Codebase
+
+➡️ App.tsx: this is the main App component, where all components are rendered.
+
+➡️ Afspraken.tsx: this is the component that renders the 'afspraken' from the 'planningsaplicatie', which are added by the user as input. There are two functions there: planAfspraak() and geefEeersteVrijeSlotVanaf().
+
+➡️ Title.tsx: this is the component that renders the title of the app.
+
+➡️ Subtitle.tsx: this is the component that renders the subtitle of the app.
+
+➡️ Styles.tsx: this is the file that holds the objects that define the styles of the components where they are passed in as props.
+
+## Work in progress
+
+⚙️ As part of the current state of things and since this project is in development, the backend is also in the works.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
