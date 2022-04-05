@@ -10,7 +10,7 @@ function App() {
     <div className="App" style={AppStyle}>
       <MemoizedTitle title={"Afspraken"} style={TitleStyle}/>
       <MemoizedSubtitle
-        subtitle={"Een planningsaplicatie waar je jouw afspraken tracken kan"}
+        subtitle={"Een planningsaplicatie waar je jouw afspraken volgen kan"}
       style={SubtitleStyle}/>
       <Afspraken />
     </div>
